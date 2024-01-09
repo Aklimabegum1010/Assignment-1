@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+
+button {
+    border-radius: 8px;
+    background: #E55473;
+    color: #fff;
+    padding: 15px 28px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 1s;
+
+}
+
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+
+
+button:hover {
+    background-color: #be2345;
+}
+
+
+header {
+    background: rgba(229, 84, 115, 0.10);
+    ;
+}
+
+.section-heading {
+    max-width: 500px;
+    text-align: center;
+}
+
+.section-heading h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .banner-text * {
+    margin-bottom: 32px;
+    max-width: 525px;
+}
+
+
+.banner .banner-text h1 {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.banner .banner-img img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.section-conten .flower.flower-img {
+    display: flex;
+}
