@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<main id="main-content">
+    <section>
+        <h1 id="food-title">This is food list</h1>
+        <ul id="food-list">
+            <li class="fooditem">Kalabuna</li>
+            <li class="fooditem">Biriyani</li>
+            <li class="fooditem">Fish fry</li>
+        </ul>
+    </section>
+    <section>
+        <h1 id="fruit-title">This is friut list</h1>
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Orange</li>
+        </ul>
+    </section>
+    <section id="places-container">
+        <h1 id = 'places-title'>I like to visit places</h1>
+        <ul id="places-ul">
+            <li class="places-visit">Sundarban</li>
+            <li class="places-visit">Bandarban</li>
+            <li class="places-visit">Shalban</li>
+            <li class="places-visit">Kataban</li>
+            <li class="places-visit">Shalban</li>
+            <li class="places-visit">Malban</li>
+        </ul>
+    </section>
+</main>
+
+
+
+
+
+<script src="js/append.js"></script>
+<script src="js/dom.js"></script>
+
+<script>
+    const sections = document.querySelectorAll('section');
+    console.log(sections);
+
+for(const section of sections){
+    // console.log(section);
+
+    section.style.border ='2px solid red';
+    section.style.marginBottom = '15px';
+    section .style.borderRadius = '10px';
+    section .style.backgroundColor = 'blue';
+    section.style.color = 'white';
+    section.style.textAlign ='center'
+}
+const placesContainer = document.getElementById('places-container');
+placesContainer.style.backgroundColor ='green'
+
+
+const li = document.createElement('li');
+li.innerText = 'Brand New Car'
+// console.log(li)
+placesul.appendChild('li')
+
+
+
+
+
+</script>
+
+</body>
+</html>

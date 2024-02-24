@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Raleway", sans-serif;
+    text-transform: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+.nav-bar {
+    width: 1170px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.bus-ticket {
+    margin-left: 150px;
+    cursor: pointer;
+
+}
+
+.btn-items {
+    display: flex;
+    gap: 10px;
+    color: rgb(29, 209, 0);
+    background-color: rgb(203, 248, 196);
+    border: 1px solid rgba(29, 209, 0, 0.4);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.banner {
+    width: 1170px;
+    height: 550px;
+    background-image: linear-gradient(180deg, rgba(3, 7, 18, 0.5), rgba(3, 7, 18, 0) 100%), url(../images/banner.png);
+    background-size: cover;
+    margin-left: 100px;
+}
+
+.banner-items {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+
+
+.banner-section {
+    color: #fff;
+    font-size: 54px;
+    font-weight: 800;
+
+}
+
+.p-paribahan {
+    color: rgb(29, 209, 0);
+    font-size: 54px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+
+.banner-description {
+    color: #fff;
+    margin-top: 10px;
+}
+
+
+.bus-buttons {
+    color: rgb(3, 7, 18);
+    font-weight: 700;
+    background-color: rgb(29, 209, 0);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 25px;
+
+}
+
+.best-section{
+    width: 1170px;
+    font-size: 40px;
+   
+    
+
+}
+.main-section1{
+    width: 1349px;
+    
+}
+
+
+.main-section {
+align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.div2 {
+    width: 573px;
+    height: 220px;
+    display: flex;
+    margin-top: 100px;
+    color: black;
+    background-color: rgb(255, 191, 15);
+    /* text-align: center; */
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    /* gap: 30px; */
+    padding: 100px;
+}
+
+.div4 {
+    width: 573px;
+    height: 220px;
+    display: flex;
+    margin-top: 100px;
+    margin-right: 50px;
+
+}
+
+.description{
+    gap: 10px;
+}
+
+
+.off-section{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.new-section{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.next-section{
+    font-weight: 500;
+}
+
+.new-section1{
+    margin-bottom: 20px;
+}
+
+
+.button-2{
+    color: rgb(29, 209, 0);
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    border:2px solid rgb(29, 209, 0);
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    min-width: 1170px;
+    
+    
+    
+}
+
+
+
+.div3{
+    width: 573px;
+    height: 220px;
+    display: flex;
+    margin-top: 100px;
+    color: black;
+    background-color: rgb(247, 140, 156);
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 100px;
+}
+
+
+.description1{
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

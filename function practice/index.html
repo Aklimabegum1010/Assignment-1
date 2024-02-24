@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Hellow world</h1>
+    </header>
+    <main>
+        <h1>Welcome to dom </h1>
+        <ul>
+            <li>dom de re baba</li>
+            <li>dom de re baba2</li>
+            <li>dom de re baba3</li>
+            <li>dom de re baba4</li>
+        </ul>
+    </main>
+
+
+
+    <script src="js/dom.js"></script>
+
+
+    <script>
+        const liCollection = document.getElementsByTagName('li')
+        // console.log(liCollection);
+        for(const li of liCollection){
+            console.log(li.innerText)
+        }
+const headingTag = document.getElementsByTagName('h1')
+for(const h1 of headingTag){
+    console.log(h1.innerText)
+}
+
+
+    </script>
+</body>
+</html>
