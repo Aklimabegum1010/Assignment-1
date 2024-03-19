@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co/S3vXtdx/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg",
+      "title": "Cheesy Quesadillas",
+      "description": "A quick and cheese and your favorite vegetables.",
+      "ingredients": [
+        "2 large tortillas.",
+        "1 cup shredded cheese.",
+        "1 cup assorted vegetables."
+      ],
+      "cooking_time": "10 minutes",
+      "calories": "350 per serving",
+      "button": "Want to Cook"
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co/yQXMmx3/Bowl-of-Salad-500x375.png",
+      "title": "Vegetable Salad",
+      "description": "A grilled chicken, juicy mango, and a zesty dressing.",
+      "ingredients": [
+        "1 boneless, chicken breast",
+        "1 ripe mango, diced",
+        "1/4 cup spicy."
+      ],
+      "cooking_time": "20 minutes",
+      "calories": "400 per serving",
+      "button": "Want to Cook"
+    }
+    
+  ]
